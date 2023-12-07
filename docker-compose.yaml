@@ -12,7 +12,7 @@ services:
       - flask
 
   flask:
-    image: "nedorezovsk2/flask:1.0"
+    # image: "nedorezovsk2/flask:1.0"
     build: .
     container_name: flask
     environment:
@@ -49,4 +49,5 @@ services:
 
 volumes:
   postgres_data:
+
 
